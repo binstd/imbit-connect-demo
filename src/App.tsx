@@ -453,11 +453,11 @@ class App extends React.Component<any, any> {
                 <Column center>
                   <STestButtonContainer>
                     <STestButton left onClick={this.testSendTransaction}>
-                      {"Send Test Transaction"}
+                      {"发起测试交易"}
                     </STestButton>
 
                     <STestButton left onClick={this.testSignMessage}>
-                      {"Sign Test Message"}
+                      {"测试签名"}
                     </STestButton>
 
                     <STestButton
@@ -465,7 +465,7 @@ class App extends React.Component<any, any> {
                       left
                       // onClick={this.testSignTypedData}
                     >
-                      {"Sign Test Typed Data"}
+                      {"发起测试交易"}
                     </STestButton>
                   </STestButtonContainer>
                 </Column>
