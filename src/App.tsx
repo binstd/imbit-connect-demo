@@ -432,7 +432,7 @@ class App extends React.Component<any, any> {
             {!address && !assets.length ? (
               <SLanding center>
                 <h3>
-                  {`使用imbit授权登陆`}
+                  {`使用imbit授权登录`}
                   <br />
                   {/* <span>{`v${process.env.REACT_APP_VERSION}`}</span> */}
                 </h3>
