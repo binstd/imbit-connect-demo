@@ -2,6 +2,7 @@ import * as React from "react";
 import styled from "styled-components";
 import banner from "../assets/ic_launcher.png";
 
+
 const SBannerWrapper = styled.div`
   display: flex;
   align-items: center;
